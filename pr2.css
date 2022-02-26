@@ -1,0 +1,182 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    position: absolute;
+    height: 100%;
+    font-family: "gilroy";
+    width: 100%;
+    background-color: rgba(175, 145, 145, 0.541);
+}
+#nav{
+    position: absolute;
+    height: 10%;
+    padding: 0% 40px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* background-color: rgb(255, 255, 255); */
+}
+#nav h1{
+    color: rgb(253, 83, 117);
+}
+#nav h1 i{
+    color: rgb(46, 102, 134);
+}
+#nav1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#nav1 h3{
+    margin-left: 24px;
+}
+#nav1 button{ height: 40px;
+    border: none;
+    border-radius: 25px;
+    background-color: rgba(87, 87, 255, 0.842);
+    width: 100px;
+    margin-left: 24px;
+}
+#line{top: 80px;
+    position: absolute;
+    height: 1px;
+    width: 100%;
+    background-color: rgba(151, 151, 151, 0.479);
+}
+#rightside{
+    position: absolute;
+    top: 20%;
+    text-transform: capitalize;
+    right: 10%;
+    /* height: 60%; */
+    width: 28%;
+    /* background-color: rgb(206, 133, 24); */
+}
+#rightside h5{
+    margin-top: 10px;
+    color: rgba(0, 0, 0, 0.61);
+}
+#rightside #rr{
+    display: flex;
+    width: 53%;
+    justify-content: space-between;
+    align-items: center;
+}
+#rightside #changetext{
+    font-size: 290%;
+    font-weight: 600;
+    margin-top: 20px;
+    opacity: 1;
+}
+#rightside p span{
+    font-size: 8rem;
+    font-weight: 700;
+}
+#rightside h5{
+    line-height: 25px;
+}
+ #rightside button{
+    height: 40px;
+    margin-top: 24px;
+    border: none;
+    border-radius: 25px;
+    background-color: rgba(87, 87, 255, 0.842);
+    width: 100px;
+} 
+#rightside hr{
+    margin-top: 23px;
+    color: rgba(187, 187, 187, 0.562);
+    height: .1px;
+}
+#leftside{
+    position: absolute;
+    left: 10%;
+    top: 23%;
+    height: 40%;
+    /* background-color: black; */
+    width: 30%;
+}
+#leftside #circle{ position: absolute;
+    top: 29%;
+    left: 20%;
+    height: 100vh;
+    width: 100%;
+}
+.skill{
+    width: 260px;
+    height: 260px;
+    position: relative;
+}
+.outer{
+    height: 260px;
+    width: 260px;
+    border-radius: 50%;
+    box-shadow: 6px 6px 10px -1px rgba(0,0,0,0.15),
+                -6px -6px -10px 1px rgba(225,225,225,0.7),;
+    /* border: 1px solid black; */
+    padding: 20px;
+}
+.inner{
+    height: 220px;
+    width: 220px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    /* border: 1px solid black; */
+    box-shadow: inset 4px 4px 6px -1px rgba(0, 0, 0, 0.2),
+                inset -4px -4px 6px -1px rgba(225,225,225,0.7),
+                -0.5px -0.5px 0px rgba(225,225,225,1),
+                0.5px 0.5px 0px rgba(0,0,0,0.15),
+                0px 12px 10px -10px rgba(0,0,0,0.5);
+
+}
+#number{
+    font-weight: 600px;
+    color: #555;
+}
+circle{
+    fill: none;
+    stroke: url(#GradientColor);
+    stroke-width: 20px;
+    stroke-dasharray: 620;
+    stroke-dashoffset:520;
+    animation: anim 2s linear forwards;
+}
+svg{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+}
+@keyframes anim {
+    100%{
+        stroke-dashoffset: 0;
+    }   
+}
+#ll h6{
+    position: absolute;
+    top: 120%;
+    left: 30%;
+    font-weight: 400;
+    font-size: 70%;
+    letter-spacing: 1px;
+}
+
+#ll h4{
+    position: absolute;
+    top: 10%;
+    left: 22%;
+    text-decoration: solid;
+    
+    font-weight: 900;
+    font-size: 170%;
+    letter-spacing: 1px;
+}
